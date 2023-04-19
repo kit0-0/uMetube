@@ -19,10 +19,11 @@
         </div>
         <div class="nav-middle flex-div">
             <div class="search-box flex-div">
-                <input type="text" placeholder="Search">
-                <img src="img/search.png">
+                <input class="input-search" type="text" placeholder="Search">
+                <button class="search-button "><img class="search-icon" src="img/search.png"></button>
+                
             </div>
-            <img src="img/voice-search.png" class="mic-icon">
+            <button class="microphone"><img  src="img/voice-search.png" class="mic-icon"></button>
         </div>
         <div class="nav-right flex-div">
             <img src="img/upload.png" >
@@ -32,9 +33,38 @@
         </div>
     </nav>
     <!-- top navbar End -->
+    <!-- side navbar start -->
+    <div class="sidebar">
+        <div class="shorcut-links">
+            <a href=""><img src="img/home.png"><p>Home</p></a>
+            <a href=""><img src="img/shorts.png"><p>Shorts</p></a>
+            <a href=""><img src="img/subscriprion.png"><p>Subscriprion</p></a>
+            <hr>
+            <a href=""><img src="img/library.png"><p>Library</p></a>
+            <a href=""><img src="img/history.png"><p>History</p></a>
+            <a href=""><img src="img/playlist.png"><p>Your videos</p></a>
+            <a href=""><img src="img/messages.png"><p>your movies</p></a>
+            <a href=""><img src="img/watchlater.png"><p>watch Later</p></a>
+            <a href=""><img src="img/show-more.png"><p>show more</p></a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>Subscriptions</h3>
+            <a href=""><img src="img/simon.png"><p>simon</p></a>
+            <a href=""><img src="img/simon.png"><p>simon</p></a>
+            <a href=""><img src="img/simon.png"><p>simon</p></a>
+            <a href=""><img src="img/simon.png"><p>simon</p></a>
+            <a href=""><img src="img/simon.png"><p>simon</p></a>
+
+        </div>
+    </div>
 
 
-    <div class=" container">
+
+    <!-- side navbar End -->
+
+
+    <div class="container" id="video">
         <div class="row">
             <div class="play-video ">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/eqy85AL70PU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -137,5 +167,7 @@
 
         </div>
     </div>
+    <!-- js file -->
+    <script src="script.js"></script>
 </body>
 </html>
